@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: white;
+  font-family: "Montserrat";
+}
+
+section {
+  height: 100vh;
+}
+
+section.intro {
+  background: #04323d;
+}
+
+section.intro1 {
+  background: #f68e17;
+}
+
+section.intro1 .scroll-effect-text {
+  text-align: center;
+  padding-top: 35vh;
+  font-size: 100px;
+  font-weight: 1000px;
+}
+
+section.intro1 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  max-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style-type: none;
+}
+
+section.intro1 ul > li {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding: 20px;
+  background: #E74C3C;
+  cursor: pointer;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+section.intro1 ul > li:hover {
+  background: #e53f2e;
+}
+
+section.intro1 ul > li.active {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+  background: #fff;
+  cursor: default;
+}
+
+section.intro1 ul > li.active h2 {
+  color: #E74C3C;
+}
+
+section.intro1 ul > li.active .section-content {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  opacity: 1;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  color: #E74C3C;
+}
+
+section.intro1 ul > li .section-title {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+}
+
+section.intro1 ul > li .section-title h2 {
+  margin: 0;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+section.intro1 ul > li .section-content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  -webkit-transition: all .25s .1s ease-out;
+  transition: all .25s .1s ease-out;
+}
+
+section.intro-blueprint {
+  background: url("https://i.pinimg.com/originals/10/a0/4e/10a04ea5afbd36518ef622a440e57024.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#fp-nav > ul > li > a > span {
+  background-color: white !important;
+}
+
+section.intro-start {
+  background: #f68e17;
+  height: calc(100vh);
+}
+
+.nav {
+  position: absolute;
+  padding-top: 10px;
+}
+
+.nav h3 {
+  float: left;
+  padding-top: 10px;
+  padding-left: 100px;
+}
+
+.nav ul {
+  list-style-type: none;
+  float: right;
+  padding-left: 145vh;
+}
+
+.nav ul li {
+  float: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.fp-slidesNav > ul > li > a > span {
+  background-color: white;
+  margin-left: 10px !important;
+}
+
+#fp-nav > ul > li > .fp-tooltip {
+  font-family: "Montserrat";
+}
+
+.s1 {
+  padding-left: 30px;
+}
+
+.s1 .padd-top {
+  padding-top: 200px;
+}
+
+.s1 p {
+  width: 100vh;
+}
+
+.s2 {
+  text-align: center;
+  padding-left: 30px;
+}
+
+.s2 p {
+  text-align: center;
+}
+
+.s3 {
+  padding-left: 30px;
+}
+
+.s3 p {
+  width: 100vh;
+}
+
+.s4 {
+  text-align: center;
+  padding-left: 30px;
+}
+
+.s4 p {
+  text-align: center;
+}
+
+.s1-3d {
+  position: absolute;
+  padding-left: 30px;
+}
+
+.s1-3d .padd-top {
+  padding-top: 200px;
+}
+
+.s1-3d p {
+  width: 100vh;
+}
+
+.comming_soon {
+  text-align: center;
+  padding-top: 30vh;
+  font-size: 100px;
+}
+
+.scroll-effect-text-2 {
+  text-align: center;
+  font-size: 100px;
+  font-weight: 1000px;
+}
+
+.scroll-effect-text-3 {
+  text-align: center;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #3cb1e7;
+}
+
+a:visited {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
